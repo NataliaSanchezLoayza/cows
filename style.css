@@ -1,0 +1,161 @@
+body,
+html {
+	font-size: 14px;
+	margin: 5%;
+	background-color: #white;
+}
+
+.photo-rest figcaption {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #c2e699; 
+	text-shadow: -1.5px 0 #006837, 0 1.5px #006837, 1.5px 0 #006837, 0 -1.5px #006837;
+}
+
+h6 {
+	text-align: center;
+	font-family: 'Vollkorn', serif;
+	font-size: 16px;
+	padding-top: 0px;
+}
+
+
+p {
+	padding: 8px;
+	font-family: 'Vollkorn', serif;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.photo-rest img {
+  max-width: 100%;
+  height: auto;
+  display: table;
+	margin: 0 auto;
+}
+
+.text-area {
+	font-size: 18px;
+}
+
+.grid-item1 {
+	height: auto;
+	margin: 4px;
+	margin-bottom: 20px;
+	padding: 10px;
+
+}
+
+.grid-item2 {
+	background-color: white;
+	margin: 4px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-family: 'Vollkorn', serif;
+	font-size: 17px;
+	max-width: 100%;
+  height: auto;
+}
+
+
+.grid-item1 img {
+	width: 80px;
+	height: auto;
+	padding: 20px;
+	display: table;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: #e5f5e0;
+	border-width: 10px;
+	
+}
+
+.footer {
+  width: auto;
+  height: auto;
+  margin: 4px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #d4b9da;
+  color: white;
+  font-size: 12px;
+  line-height: 10px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+
+@media(min-width:  681px) {
+
+body,
+html {
+	font-size: 30px;
+	margin: 8%;
+
+}
+
+.photo-rest figcaption {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	font-size: 13px;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	padding: 8px;
+}
+
+
+.photo-rest img {
+  max-width: 70%;
+  height: auto;
+  display: table;
+	margin: 0 auto;
+}
+	
+	.text-area {
+		font-size: 22px;
+	}
+
+
+	.grid-area {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 5px;
+
+	}
+
+	.grid-item2 {
+		flex-basis:60%;
+		flex-grow: 2;
+		font-size: 18px;
+
+	}
+
+	.grid-item1 img {
+	width: 120px;
+
+}
+
+.footer {
+	font-size: 15px;
+}
+
+}
+
